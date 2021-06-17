@@ -22,10 +22,13 @@ averageMark(3, 4, 5)
 
 function sayHello(userName) {
 	
-    // реализуйте здесь задание №2
+    let myName = userName;
+	let message = `Привет, мир! Меня зовут $userName`
     
-	return // ваш ответ;
+	return message;
 }
+
+sayHello(Анна Викторовна)
 
 function calculateFormula() {
     
