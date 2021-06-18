@@ -26,11 +26,19 @@ function sayHello(userName) {
 	return message;
 }
 
-sayHello(Анна Викторовна)
+let x;
+let y;
+let z;
 
-function calculateFormula() {
+function calculateFormula(x, y, z) {
     
-	// реализуйте здесь задание №3
+	x = 2;
+	y = 22; 
+	z = 0;
+
+	let result = x*y + 5*z - 1;
     
-    return // ваш ответ;
+    return result;
 }
+
+calculateFormula(x, y, z)
