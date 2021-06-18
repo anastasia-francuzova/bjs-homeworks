@@ -18,8 +18,6 @@ function averageMark(a, g, p) {
 	return avgMark;
 }
 
-averageMark(3, 4, 5)
-
 function sayHello(userName) {
 	
     let myName = userName;
